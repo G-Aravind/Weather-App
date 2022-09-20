@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+ 
+<header>
+  <h1>WEATHER APP</h1>
+<div class="search-container">
+        <input id="input" type="text">
+        <button id="search-btn"><i class="fa fa-search"></i></button>
+        <button id="location-btn"><i class="fa fa-map-marker"></i></button>
+       
+</div>
+
+</header>
+
+<section  class="container-fluid">
+  
+
+  <div class="top-section">
+    <p id="today">TODAY</p>
+        <p id="msg">ENTER A CITY NAME</p>
+    <p id="date"></p>
+  </div>
+  
+  <div class="middle-section" id="info">
+    <p id="city"></p>
+    <div>
+        <p id="temp"></p>
+        <p id="description"></p>
+    </div>
+    <p id="error-msg">ENTER A CITY</p>
+  </div>
+  <div class="bottom-section" >
+            <div class="weather">
+                <p id="weather"></p>
+                <p id="w"></p>
+            </div>
+            <div class="humidity">
+                <p id="humidity"></p>
+                <p id="h"></p>
+            </div>
+            <div class="pressure">
+                <p id="pressure"></p>
+                <p id="a"></p>
+            </div>
+  </div>
+
+
+</section>
+
+</body>
+<script src="index.js"></script>
+</html>
