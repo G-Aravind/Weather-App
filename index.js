@@ -121,11 +121,14 @@ if(input.value == ""){
         a.innerHTML = 'AIRPRESSURE'
     })
     .catch(()=>{
+      errorMsg.style.display="block"
       msg.innerHTML= 'CITY NOT FOUND'
       msg.style.display = 'block'
+      errorMsg.innerHTML ="ENTER A CITY"
       setTimeout(()=>{
       msg.style.display = 'none'
      },1000)
+     
 
     })
       
